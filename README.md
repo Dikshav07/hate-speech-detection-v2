@@ -47,7 +47,7 @@ Implemented a hate speech detector for social media comments using advanced deep
 <!-- Data -->
 ## Data
 + 998 comments from YouTube and Reddit validated using the Figure-Eight crowdsourcing platform.
-+ Dataset: [Hate Speech Detection Dataset]().
++ Dataset: [Hate Speech Detection Dataset](https://drive.google.com/file/d/1jX0IdTyb9owZksEY3_qJHirc6n5X2R2b/view?usp=sharing).
 + Balanced data: 43.4% hate speech.
 + Comment length: Mean = 112 words (std = 160).
 
