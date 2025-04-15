@@ -16,7 +16,7 @@ Implemented a hate speech detector for social media comments using advanced deep
 
 ### Summary
 + Motivation: Develop a hate speech detector for social media comments. 
-+ Data: Utilized the [ Hate Speech Detection Dataset]().
++ Data: Utilized the [ Hate Speech Detection Dataset](https://drive.google.com/file/d/1jX0IdTyb9owZksEY3_qJHirc6n5X2R2b/view?usp=sharing).
 + Models: The fine-tuned BERT model demonstrated superior performance (78.0% accuracy) compared to the SimpleRNN (66.3%) and LSTM (70.7%) models.
 + Deployment: The fine-tuned BERT model was prepared for production by integrating it into a web application and an API endpoint.
 
