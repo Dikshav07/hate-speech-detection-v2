@@ -79,7 +79,5 @@ def prediction_by_api():
     return jsonify({"prediction": prediction,
                     "probability": float(prediction_prob)})
 
-
-# Start the Flask web application
 if __name__ == "__main__":
     app.run(debug=True)
