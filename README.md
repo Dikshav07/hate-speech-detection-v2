@@ -32,7 +32,6 @@ Implemented a hate speech detector for social media comments using advanced deep
 * ![HTML5][HTML5-badge]
 * ![CSS3][CSS3-badge]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Motivation -->
@@ -274,7 +273,6 @@ Batch size: 8
 Dropout rate: 50%  
 Early stopping metric: Accuracy
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS -->
 [TensorFlow-badge]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
