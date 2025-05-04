@@ -41,7 +41,7 @@ Implemented a hate speech detector for social media comments using advanced deep
 + Project goal: Utilize deep learning for hate speech detection in social media comments.
 + Definition of hate speech: Insulting public speech directed at speciﬁc individuals or groups on the basis of characteristics such as race, religion, ethnic origin, national origin, sex, disability, sexual orientation, or gender identity ([Mollas, Chrysopoulou, Karlos, & Tsoumakas, 2022](https://link.springer.com/article/10.1007/s40747-021-00608-2)).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- Data -->
@@ -53,7 +53,6 @@ Implemented a hate speech detector for social media comments using advanced deep
 
 ![Comment length histogram](plots/histogram_comment_length.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Model Building -->
@@ -72,7 +71,6 @@ Comparison of three deep learning models:
   + Small BERT model: [small_bert/bert_en_uncased_L-4_H-512_A-8](https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-4_H-512_A-8/2)
   + Preprocessing, model architecture and hyperparameters: [See details](#fine-tuned-bert-preprocessing-model-architecture-and-hyperparameters)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Saved Models
@@ -87,7 +85,6 @@ Create a folder saved_models in your main folder and save all the three models i
 | Training Accuracy | 91.8%     | 100%     | 99.9%           |
 | Test Accuracy     | 66.3%     | 70.7%    | 78.0%           |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Classification Report
 The following classification reports present the performance metrics of the trained models on the test data.
@@ -113,7 +110,6 @@ The following classification reports present the performance metrics of the trai
 | Hate Speech     | 0.72      | 0.83   | 0.77     |
 | Accuracy        |           |        | 0.78     |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Confusion Matrix
 Confusion matrices of the three models based on the test data.
@@ -121,7 +117,6 @@ Confusion matrices of the three models based on the test data.
 |-----------------------|-----------------------|-----------------------|
 | ![Model 1 Confusion Matrix](./plots/model1_confusion_matrix.png) | ![Model 2 Confusion Matrix](./plots/model2_confusion_matrix.png) | ![Model 3 Confusion Matrix](./plots/model3_confusion_matrix.png) |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Illustrative Examples
 Here are some example comments from the test data along with their true label and model predictions.
@@ -134,7 +129,6 @@ Here are some example comments from the test data along with their true label an
 | Fat lesbians | Hate | Hate | Hate | Hate |
 | What imaginary gender are you? | Hate | No Hate | No Hate | Hate |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MODEL DEPLOYMENT -->
@@ -153,7 +147,6 @@ API documentation: [See here](https://documenter.getpostman.com/view/28394113/2s
 
 ![Model deployment API](/images/model_deployment_api.gif)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -188,7 +181,6 @@ To enhance security, create a `.env` file and create a secret key for the Flask 
   SECRET_KEY = "Your_secret_key_here"
   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- APPENDIX -->
@@ -222,7 +214,6 @@ Batch size: 8
 Dropout rate: 50%  
 Early stopping metric: Accuracy
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### LSTM: Preprocessing, Model Architecture and Hyperparameters
 
@@ -254,7 +245,6 @@ Batch size: 32
 Dropout rate: 50%  
 Early stopping metric: Accuracy
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Fine-Tuned BERT: Preprocessing, Model Architecture and Hyperparameters
 
